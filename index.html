@@ -50,18 +50,19 @@
 
 <h3>Website Editing</h3>
 
-<p>If you want to edit/contribute to the website, simply clone the GitHub repo via these commands:</p>
+<p>If you want to edit/contribute to the website, simply clone the GitHub repo via this command:</p>
 
-<pre><code>$ mkdir frc-4343.github.com/
+<pre><code>$ git clone git://github.com/FRC-4343/frc-4343.github.com.git
 $ cd frc-4343.github.com
-$ git clone git://github.com/FRC-4343/frc-4343.github.com.git
 </code></pre>
 
 <p>Make your changes to the website, then push the changes through:</p>
 
-<pre><code>$ git commit -a
-$ git push origin master</code></pre>
+<pre><code>$ git commit -a -m "COMMIT MESSAGE"
+$ git remote add origin git@github.com:FRC-4343/frc-4343.github.com.git
+$ git push -u origin master</code></pre>
 
+<p>Where COMMIT MESSAGE is a short description of your changes (in quotes).</p>
 <p>To get any new changes from the repository type:</p>
 
 <pre><code>$ git pull origin master
