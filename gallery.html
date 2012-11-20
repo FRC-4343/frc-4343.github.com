@@ -11,15 +11,16 @@
     <script src="javascripts/respond.js"></script>
     <script src="galleria/galleria-1.2.8.min.js"></script>
     <script src="galleria/themes/classic/galleria.classic.min.js"></script>
+    <script src="galleria/plugins/flickr/galleria.flickr.min.js"></script>
 
     <script>
     $(document).ready(function(){
-      var photoCount = 53;
-      for(var i = photoCount; i >= 1; i--){
-        $('<img src="images/frc/photo (' + i + ').jpg">').prependTo("#galleria");
-      }
-      
       Galleria.run('#galleria');
+
+      var flickr = new Galleria.Flickr();
+      flickr.user('90253023@N03', function(data){
+        Galleria.get(0).load( data ); // reloads the first galleria instance with the new data
+      });
     });
     </script>
 
