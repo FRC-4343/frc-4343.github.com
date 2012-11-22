@@ -700,8 +700,7 @@ header #logo{
   position: fixed;
   height: 9em;
   width: 13em;
-  left: 420px;
-  top: 30px;
+  left: 29%;
   display: block;
   background: url(../images/logo.png) no-repeat;
 }
