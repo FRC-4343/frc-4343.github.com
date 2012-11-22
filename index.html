@@ -9,60 +9,55 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.tweet.css" media="all" />
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <script src="javascripts/main.js"></script>
     <script src="javascripts/tweet.js"></script>
-    <script src="tweet/jquery.tweet.js"></script>
+    <script src="plugins/tweet/jquery.tweet.js"></script>
     
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" type="text/css" href="stylesheets/ie.css">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <script>
-    </script>
-    
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="index.html">Home</a></li>
-        </nav>
-        <nav>
-          <li class="fork"><a href="https://github.com/FRC-4343">GitHub</a></li>
-        </nav>
-        <nav>
-          <li class="fork"><a href="http://smkh.ycdsb.ca/Departments/FIRST%20Robotics/Home%20Page">SMKH</a></li>
-        </nav>
-        <nav>
-          <li class="fork"><a href="https://my.usfirst.org/stims/site.lasso">STIMS</a></li>
-        </nav>
-        <nav>
-          <li class="fork"><a href="http://www.usfirst.org/roboticsprograms/frc">USFIRST</a></li>
-        </nav>
-        <nav>
-          <li class="fork"><a href="gallery.html">Gallery</a></li>
-        </nav>
-      </div><!-- end header -->
+    <header>
+      <h1>FRC Team 4343</h1>
+      <p>Welcome to the Official FRC Team 4343 Webpage</p>
+    </header>
+
+    <div id="banner">
+      <!--<span id="logo"></span>-->
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a class ="button" href="index.html"><strong>Home</strong></a>
+            <a class ="button" href="gallery.html"><strong>Gallery</strong></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="downloads">
+        <span>External:</span>
+        <ul>
+          <li>
+            <a class ="button" href="https://github.com/FRC-4343"><strong>GitHub</strong></a>
+            <a class ="button" href="http://smkh.ycdsb.ca/Departments/FIRST%20Robotics/Home%20Page"><strong>SMKH</strong></a>
+            <a class ="button" href="https://my.usfirst.org/stims/site.lasso"><strong>STIMS</strong></a>
+            <a class ="button" href="http://www.usfirst.org/roboticsprograms/frc"><strong>USFIRST</strong></a>
+          </li>
+        </ul>
+      </div>
+    </div><!-- end header -->
 
     <div class="wrapper">
+      <nav><ul></ul></nav>
       <section>
-        <div id="title">
-          <h1>FRC Team 4343</h1>
-          <p>Welcome to the Official FRC Team 4343 Webpage</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/FRC-4343">FRC-4343</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h3>Progress, News, and Other Fun Stuff</h3>
+<h2>Progress, News, and Other Fun Stuff</h2>
       
 <p>Sorry, but right now we don't have much content on this website :(</p>
 <p>We'll keep updating though, so make sure to check back!</p>
 
-<h3>Website Editing</h3>
+<h2>Website Editing</h2>
 
 <p>If you want to edit/contribute to the website, simply clone the GitHub repo via these commands:</p>
 
@@ -82,23 +77,23 @@ $ git push -u origin master</code></pre>
 <pre><code>$ git pull origin master
 </code></pre>
 
-<h3>Template</h3>
+<h2>Template</h2>
 
 <p>We're currently using a GitHub Pages template, so the layout of the website might change later.</p>
 
-<h3>Possible Changes</h3>
+<h2>Possible Changes</h2>
 
 <p>We might switch to Jekyll, a static site generator for easier website updating.</p>
 
-<h3>Authors and Contributors</h3>
+<h2>Authors and Contributors</h2>
 
 <p>This website is maintained by <a href="https://github.com/FRC-4343" class="user-mention">@FRC-4343</a>. A full list of contributors will come soon.</p>
 
-<h3>Support or Contact</h3>
+<h2>Support or Contact</h2>
 
 <p>Contact us at <a href="mailto:smkfrc@hotmail.ca">smkfrc@hotmail.ca</a>.</p>
 
-<h3>Twitter Feeds</h3>
+<h2>Twitter Feeds</h2>
 
 <p>St.Max FRC Team 4343</p>
 
@@ -107,12 +102,13 @@ $ git push -u origin master</code></pre>
 <p>Max the Robot</p>
 
       <div class='robot'></div>
-
       </section>
 
+      <footer>
+        <p>Project maintained by <a href="https://github.com/FRC-4343">@FRC-4343</a></p>
+        <p><span class="small">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span></p>
+      </footer>
     </div>
-        
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
   </body>
 </html>
