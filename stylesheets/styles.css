@@ -696,6 +696,15 @@ header p {
   font-size: 18px;
   margin: 0px;
 }
+header #logo{
+  position: fixed;
+  height: 9em;
+  width: 13em;
+  left: 420px;
+  top: 30px;
+  display: block;
+  background: url(../images/logo.png) no-repeat;
+}
 
 #banner {
   z-index: 100;
@@ -948,7 +957,7 @@ footer {
   header p {
     display: none;
   }
-
+  
   #banner {
     top: 80px;
   }
