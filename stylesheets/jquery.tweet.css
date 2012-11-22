@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     overflow-y: hidden;
-    background-color: #434343;
+    background-color: #ededed;
   }
 
     .tweet_list li {
@@ -25,11 +25,11 @@
     }
 
       .tweet_list li a {
-        color: #ffcc00;
+        color: #39f;
       }
 
     .tweet_list .tweet_even {
-      background-color: #696969;
+      background-color: #ccc;
     }
 
     .tweet_list .tweet_avatar {
