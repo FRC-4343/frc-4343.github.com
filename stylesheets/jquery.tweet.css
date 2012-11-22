@@ -1,9 +1,9 @@
 .tweet,
 .query {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 15px;
+  font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
+  font-weight: 300;
+  margin: 0px;
 }
 
   .tweet_list {
