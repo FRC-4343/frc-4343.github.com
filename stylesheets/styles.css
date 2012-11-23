@@ -679,7 +679,7 @@ header {
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
 }
-header h1 {
+header #title {
   font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f3f3f3;
   text-shadow: 0px 2px 0px #235796;
@@ -690,19 +690,20 @@ header h1 {
   -o-text-overflow: ellipsis;
   -ms-text-overflow: ellipsis;
 }
+header #title #logo{
+  position: absolute;
+  display: inline;
+  height: 100%;
+  width: 100%;
+  margin-left: -14%;
+  top: 8%;
+  background: url(../images/logo.png) no-repeat;
+}
 header p {
   color: #d8d8d8;
   text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
   font-size: 18px;
   margin: 0px;
-}
-header #logo{
-  position: fixed;
-  height: 9em;
-  width: 13em;
-  left: 29%;
-  display: block;
-  background: url(../images/logo.png) no-repeat;
 }
 
 #banner {
@@ -746,8 +747,8 @@ header #logo{
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #FFE788;
-  margin-left: 5px;
-  padding: 10px 12px;
+  margin-left: 1px;
+  padding: 10px 11px;
   margin-top: 6px;
   line-height: 14px;
   font-size: 14px;
