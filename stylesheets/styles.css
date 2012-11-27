@@ -1014,3 +1014,9 @@ footer {
     width: auto;
   }
 }
+
+#galleria{
+  width: 585px;
+  height: 400px;
+  background: #000;
+}
