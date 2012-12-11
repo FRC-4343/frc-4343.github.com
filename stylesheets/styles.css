@@ -762,11 +762,14 @@ header p {
   font-size: 14px;
   background-color: #FFE788;
 }
-#banner .navigation {
-  margin: 0 0 0 43%;
-} 
-#banner .downloads {
+#banner .external {
   float: right;
+  height: 0px;
+}
+#banner .navigation {
+  float: right;
+  margin-right: 395px;
+  height: 0px;
 }
 #banner span {
   float: left;
@@ -877,17 +880,7 @@ footer {
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
   }
-
-  #banner {
-    width: 100%;
-  }
-  #banner .downloads {
-    margin-right: 60px;
-  }
-  #banner .navigation {
-    margin: 0 0 0 43%;
-  }
-
+  
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -915,6 +908,11 @@ footer {
     margin: 0;
   }
   header h1 {
+    background-position: top left;
+    width: 450px;
+    float: left;
+    line-height: 2.1;
+    margin-top: -12px;
     font-size: 32px;
     white-space: nowrap;
     overflow: hidden;
@@ -936,6 +934,15 @@ footer {
     position: fixed;
     left: 20px;
   }
+  #banner .external {
+    display: none;
+  }
+  #banner .navigation {
+    float: left;
+    padding-left: 30px;
+    width: 369px;
+    height: auto;
+  }
 
   section {
     margin-top: 130px;
@@ -954,6 +961,10 @@ footer {
     min-height: 0px;
   }
   header h1 {
+    margin-left: 30px;
+    margin-top: 0px;
+    float: center;
+    line-height: 3.1;
     font-size: 24px;
     white-space: nowrap;
     overflow: hidden;
@@ -969,7 +980,7 @@ footer {
   #banner {
     display: none;
   }
-
+  
   header ul {
     display: none;
   }
