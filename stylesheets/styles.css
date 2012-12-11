@@ -789,15 +789,6 @@ header p {
 #banner ul li a.button {
   background-color: #FFE788;
 }
-#banner #logo {
-  position: absolute;
-  height: 36px;
-  width: 36px;
-  right: 7px;
-  top: 7px;
-  display: block;
-  background: url(../images/logo.png);
-}
 
 section {
   width: 590px;
@@ -893,12 +884,8 @@ footer {
   #banner .downloads {
     margin-right: 60px;
   }
-  
   #banner .navigation {
     margin: 0 0 0 43%;
-  }
-  #banner #logo {
-    margin-right: 15px;
   }
 
   section {
