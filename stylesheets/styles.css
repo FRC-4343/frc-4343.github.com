@@ -372,7 +372,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -671,11 +671,9 @@ dt {
 
 header {
   padding: 25px 20px 40px 20px;
-  margin: 0;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   width: 100%;
   text-align: center;
   background: url(../images/background.png) #4276b6;
@@ -686,13 +684,19 @@ header {
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
 }
-header h1 {
+header a {
+  position: relative;
   background-image: url(../images/logo.png);
-  width: 640px;
-  margin: 0 auto;
   background-repeat: no-repeat;
-  background-position: top left;
+  display: block;
+  width: 100px;
+  padding: 0px 500px 0px 0px;
+  margin: 0 auto;
   height: 60px;
+  z-index: 98;
+}
+header h1 {
+  margin: -60px;
   margin-bottom: -3px;
   font: 40px/48px "nfs", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f3f3f3;
@@ -906,7 +910,7 @@ color: #FFF;
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
   }
-  
+
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -1006,7 +1010,7 @@ color: #FFF;
   #banner {
     display: none;
   }
-  
+
   header ul {
     display: none;
   }
