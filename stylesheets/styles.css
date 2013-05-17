@@ -717,12 +717,11 @@ header p {
   z-index: 100;
   left: 0;
   right: 50%;
-  height: 50px;
+  height: 0px;
   margin-right: -382px;
   position: fixed;
-  top: 115px;
-  background: #ffcc00;
-  border: 1px solid #f0b500;
+  top: 100px;
+  background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
@@ -734,16 +733,8 @@ header p {
   padding-right: 10px;
 }
 #banner .button {
-  border: 1px solid #dba500;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe788), color-stop(100%, #ffce38));
-  background: -webkit-linear-gradient(#ffe788, #ffce38);
-  background: -moz-linear-gradient(#ffe788, #ffce38);
-  background: -o-linear-gradient(#ffe788, #ffce38);
-  background: linear-gradient(#ffe788, #ffce38);
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  border: 1px solid #686060;
+   background: url(../images/transparent.png);
   border-radius: 2px;
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
@@ -789,10 +780,9 @@ header p {
 #banner span {
   float: left;
   line-height: 52px;
-  font-size: 90%;
-  color: #9d7f0d;
+  font-size: 100%;
+  color: #ffffff;
   text-transform: uppercase;
-  text-shadow: rgba(255, 255, 255, 0.2) 0 1px 0;
 }
 #banner ul {
   list-style: none;
@@ -805,7 +795,7 @@ header p {
   display: inline;
 }
 #banner ul li a.button {
-  background-color: #FFE788;
+  background-color: #C2C2C2;
 }
 
 section {
